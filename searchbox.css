@@ -1,0 +1,40 @@
+.search-box {
+    width: 350px;
+    height: 400px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url(dress.jpg);
+    background-size: cover;
+    box-shadow: 0 4px 8px #232f3e;
+}
+
+hr {
+    box-shadow: 0 4px 8px whitesmoke;
+}
+
+.search-box form {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #232f3e;
+}
+
+.search-box form .btn1  {
+    width: 80px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    font-weight: bold;
+    margin-top: 5px;
+}
