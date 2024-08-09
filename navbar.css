@@ -1,0 +1,56 @@
+.navbar {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px pink;
+    background-color: #232f3e;
+}
+
+.logo {
+    margin-left: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    background-color: #232f3e;
+}
+
+.logo h1 {
+    background-color: #232f3e;
+}
+
+.navOps {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    background-color: #232f3e;
+}
+
+.navOps a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #232f3e;
+}
+
+.btn {
+    margin-right: 25px;
+    width: 80px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 9px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn a {
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+    margin: auto;
+    font-weight: bold;
+}
